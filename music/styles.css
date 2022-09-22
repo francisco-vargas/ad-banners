@@ -1,0 +1,420 @@
+body {
+	margin: 0px;
+}
+
+#container {
+	top: 0px;
+	left: 0px;
+	width: 160px;
+	height: 600px;
+	display: block;
+	position: relative;
+	border: 1px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	overflow: hidden;
+	padding:2px;
+}
+/******************** FIRST FRAME ********************/
+#frame1{
+	top: 0px;
+	left: 0px;
+	width: 160px;
+	height: 600px;
+	background-color:#fff;
+}
+#logoBig {
+	width: 155px;
+    height: 121px;
+    position: relative;
+    background: url("sprite_images.png")517px 707px;
+    top: 200px;
+    left: 2px;
+}
+/******************** SECOND FRAME ********************/
+#frame2{
+	top: 0px;
+	left: 0px;
+	width: 160px;
+	height: 600px;
+	opacity:0;
+	display:block;
+}
+.bgOne{
+	top: 0px;
+	left: 0px;
+	width: 160px;
+	height: 600px;
+	background-color:#fff5d1;
+	background-image:url("dot.png");
+	position:absolute;
+}
+
+.logoSmall {
+	width: 126px;
+    height: 98px;
+	position:absolute;
+	background: url("sprite_images.png")245px 338px;
+    top: 26px;
+    left: 16px;
+}
+
+#orangeGuitar1 {
+	width: 154px;
+    height: 392px;
+    background: url("sprite_images.png")0px 538px;
+    top: 189px;
+    left: 28px;
+    z-index: 2;
+	position:absolute;
+}
+#redGuitar {
+	width: 146px;
+	height: 360px;
+	background: url("sprite_images.png")-166px 534px;
+	top: 207px;
+	left: -14px;
+	z-index: 1;
+	position: absolute;
+}
+/******************** THIRD FRAME ********************/
+#frame3{
+	top: 0px;
+	left: 0px;
+	width: 160px;
+	height: 600px;
+	background-color:#fff;
+	overflow:hidden;
+	opacity:0;
+	display:block;
+}
+.bgTwo{
+	top: 0px;
+	left: 0px;
+	width: 160px;
+	height: 600px;
+	background-color:#fff5d1;
+	background:url("stripeBG_300.png")repeat-y;
+	position:absolute;
+}
+#yellowGuitar1{
+	width: 112px;
+    height: 198px;
+    background: url("sprite_images.png")244px 536px;
+    top: 230px;
+    left: 45px;
+    z-index: 4;
+    position: absolute;
+}
+#yellowGuitar2{
+	width: 108px;
+    height: 229px;
+    background: url("sprite_images.png")359px 251px;
+    top: 210px;
+    left: -27px;
+    z-index: 3;
+    position: absolute;
+}
+#redViolin1 {
+	width: 119px;
+    height: 277px;
+    background: url("sprite_images.png")364px 533px;
+    top: 185px;
+    left: 24px;
+    z-index: 2;
+    position: absolute;
+}
+#greenGuitar {
+	width: 101px;
+    height: 237px;
+    background: url("sprite_images.png")236px 237px;
+    top: 192px;
+    left: 87px;
+    z-index: 1;
+    position: absolute;
+}
+.tabSmall {
+	width: 160px;
+    height: 750px;
+    background: url("overlayTab_160.png");
+    top: 900px;
+    left: 0;
+    z-index: 5;
+    position: absolute;
+}
+.text {
+	font: normal 10px Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+.text h2 {
+	
+    top: 49px;
+    left: 0px;
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.text p {
+    top: 58px;
+    left: 0px;
+    position: relative;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 135px;
+    margin: 0 auto;
+    line-height: 13px;
+    word-spacing: -6px;
+}
+/******************** FOURTH FRAME ********************/
+#frame4{
+	top: 0px;
+	left: 180px;
+	width: 160px;
+	height: 600px;
+	position:absolute;
+	z-index:6;
+}
+#musical{
+	width: 152px;
+	height: 125px;
+	background: url("sprite_images.png")686px 146px;
+	top: 453px;
+	left: 4px;
+	z-index: 1;
+	position: absolute;
+}
+#orangeViolin1{
+	width: 121px;
+	height: 217px;
+	background: url("sprite_images.png")122px 536px;
+	top: -82px;
+	left: 74px;
+	z-index: 6;
+	position: absolute;
+}
+#orangeViolin2{
+	width: 121px;
+	height: 217px;
+	background: url("sprite_images.png")122px 536px;
+	top: 48px;
+	left: 85px;
+	z-index: 5;
+	position: absolute;
+	-ms-transform: rotate(27deg);
+	-webkit-transform: rotate(27deg);
+	transform: rotate(27deg);
+}
+#orangeViolin3{
+	width: 121px;
+	height: 217px;
+	background: url("sprite_images.png")122px 536px;
+	top: 160px;
+	left: 101px;
+	z-index: 4;
+	position: absolute;
+	-ms-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+#redViolin2{
+	width: 119px;
+	height: 229px;
+	background: url("sprite_images.png")118px 853px;
+	top: -27px;
+	left: 6px;
+	z-index: 3;
+	position: absolute;
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+#redViolin3{
+	 width: 119px;
+	height: 229px;
+	background: url("sprite_images.png")118px 853px;
+	top: 101px;
+	left: -17px;
+	z-index: 2;
+	position: absolute;
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+#redViolin4{
+	width: 119px;
+	height: 229px;
+	background: url("sprite_images.png")118px 853px;
+	top: 209px;
+	left: -11px;
+	z-index: 1;
+	position: absolute;
+	-ms-transform: rotate(-19deg);
+	-webkit-transform: rotate(-19deg);
+	transform: rotate(-19deg);
+}
+/******************** FIFTH FRAME ********************/
+#frame5{
+	top: 0px;
+	left: 0px;
+	width: 160px;
+	height: 600px;
+	position:absolute;
+	opacity:0;
+}
+#frame5 .logoSmall{
+	top: 4px;
+	left: 16px;
+}
+#orangeGuitar2 {
+	width: 116px;
+	height: 295px;
+	background: url("sprite_images.png")0px 405px;
+	background-size: 518px 405px;
+	top: 106px;
+	left: 6px;
+	z-index: 2;
+	position: absolute;
+	-ms-transform: rotate(-8deg);
+	-webkit-transform: rotate(-8deg);
+	transform: rotate(-8deg);
+}
+#frame5 .text {
+	top: 348px;
+	position: relative;
+}
+#frame5 .text h2 {
+	top: 14px;
+	left: -5px;
+	letter-spacing: 0px;
+	font-size: 15px;
+	line-height: 15px;
+}
+
+#frame5 .text p {
+	width: 130px;
+	top: 22px;
+	width: 126px;
+	line-height: 14px;
+}
+.more {
+	cursor:pointer;
+	position: relative;
+	top: 371px;
+	left: 28px;
+	font: bold 16px Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+.more:hover{
+	color:#FF6600;
+}
+/******************** EXPANDED FRAME ********************/
+#expanded{
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 600px;
+	display: block;
+	position: absolute;
+	border: 1px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	overflow: hidden;
+	padding:2px;
+	display:none;
+}
+#expanded .bgTwo{
+	width:300px;
+}
+#largeContent{
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 600px;
+	opacity:1;
+}
+#logoBigger {
+	width: 192px;
+    height: 149px;
+    position: relative;
+    background: url("logoBigger.png");
+    top: 14px;
+	left: 59px;
+}
+ #yellowGuitar3{
+	width: 112px;
+    height: 198px;
+    background: url("sprite_images.png")244px 536px;
+    top: 242px;
+	left: 124px;
+    z-index: 4;
+    position: absolute;
+}
+#yellowGuitar4{
+	width: 108px;
+    height: 229px;
+    background: url("sprite_images.png")359px 251px;
+    top: 247px;
+	left: 0px;
+    z-index: 3;
+    position: absolute;
+}
+#redViolin5 {
+	width: 119px;
+    height: 277px;
+    background: url("sprite_images.png")364px 533px;
+    top: 217px;
+	left: 65px;
+    z-index: 2;
+    position: absolute;
+}
+#greenGuitar2 {
+	width: 101px;
+    height: 237px;
+    background: url("sprite_images.png")236px 237px;
+    top: 225px;
+	left: 205px;
+    z-index: 1;
+    position: absolute;
+}
+#close{
+	width: 19px;
+	height: 11px;
+	background: url("sprite_images.png")19px 11px;
+	top: 5px;
+	right: 3px;
+	z-index: 2;
+	position: absolute;
+	cursor:pointer;
+}
+#tabLarge {
+	width: 300px;
+    height: 750px;
+    background: url("overlayTab_300.png");
+    top: 384px;
+    left: 0;
+    z-index: 5;
+    position: absolute;
+}
+#tabLarge .text h2 {
+	top: 39px;
+	left: 0px;
+	position: relative;
+	letter-spacing: 1px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 16px;
+	width: 124px;
+	margin: 0 auto;
+}
+#tabLarge .text p {
+	font-size:12px;
+	top: 48px;
+}
+#tabLarge .more {
+	top: 41px;
+	left: 93px;
+}

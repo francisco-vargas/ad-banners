@@ -1,0 +1,317 @@
+@charset "UTF-8";
+* {margin:0; padding: 0;}
+div {position:absolute;}
+.banner {
+    width:300px;
+    height:250px;
+    box-sizing:border-box;
+    border:1px solid #333;
+    background:#b79873 url('images/background.jpg');
+    overflow:hidden;
+    display:block !important;
+}
+.aC{
+    right:0;
+    left:0;
+    margin:0 auto;
+}
+#loader-container {
+    display:none;
+}
+#btnExit{
+    width:300px;
+    height:250px;
+    box-sizing:border-box;
+    cursor:pointer;
+    opacity:0;
+    display: none;
+}
+.cover
+{
+    background-repeat: no-repeat!important;
+    background-position: 50%!important;
+    background-size: cover!important;
+
+    -webkit-background-size: cover!important;
+       -moz-background-size: cover!important;
+         -o-background-size: cover!important;
+    -webkit-background-position: 50%!important;
+       -moz-background-position: 50%!important;
+         -o-background-position: 50%!important;
+}
+
+.contain
+{
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+
+    -webkit-background-size: contain!important;
+       -moz-background-size: contain!important;
+         -o-background-size: contain!important;
+}
+
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    background-image: url(images/background1.jpg);
+    background-size: contain;
+    overflow: hidden;
+}
+.copyOne{
+  width: 150px;
+  height: 132px;
+  background: url(images/copyAll.png) -80px 1px no-repeat;
+  left: 0;
+  top: 10px;
+}
+.copyTwo{
+  width: 150px;
+  height: 118px;
+  background: url(images/copyAll.png) -82px -133px no-repeat;
+   left: -140px;
+  top: 17px;
+  z-index: 1;
+}
+.copyThree{
+  width: 150px;
+  height: 52px;
+  background: url(images/copyAll.png) -82px -167px no-repeat;
+  left: 300px;
+  top: 51px;
+  z-index: 1;
+}
+.copyFour{
+  width: 150px;
+  height: 37px;
+  background: url(images/copyAll.png) -82px -218px no-repeat;
+  left: 300px;
+  top: 102px;
+  z-index: 1;
+}
+.copyFive{
+  width: 227px;
+  height: 114px;
+  background: url(images/copyAll.png) 4px -257px no-repeat;
+  left: -300px;
+  top: 15px;
+  z-index: 1;
+}
+.copySix{
+  width: 227px;
+  height: 114px;
+  background: url(images/copyAll.png) 1px -374px no-repeat;
+  left: -300px;
+  top: 15px;
+  z-index: 1;
+}
+.copySeven{
+  width: 227px;
+  height: 131px;
+  background: url(images/copyAll.png) 3px -489px no-repeat;
+  left: -224px;
+  top: 15px;
+  z-index: 1;
+}
+.dustContainer{
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  bottom: -1px;
+  right: 0px;
+}
+.cloudOne{
+  position: absolute;
+  width: 187px;
+  height: 130px;
+  background: url(images/dustImg.png) 0px -141px no-repeat;
+  bottom: 0;
+  right: 0;
+}
+.cloudTwo{
+  position: absolute;
+  width: 214px;
+  height: 130px;
+  background: url(images/dustImg.png) 0 -9px no-repeat;
+  bottom: 0;
+  right: 0;
+}
+#logo{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  background: url(images/logo.png) no-repeat;
+  bottom: 0;
+  right: -200px;
+  opacity: 0;
+}
+#bluredLogo{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  background: url(images/blured-logo.png) no-repeat;
+  bottom: 0;
+  right: -200px;
+}
+#cloud1{
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  background: url(images/smoke1.png) no-repeat;
+  bottom: 0;
+  right: 30px;
+  transform: rotate(90deg) scale(0.7);
+  opacity: 0;
+}
+#cloud2{
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  background: url(images/smoke1.png) no-repeat;
+  bottom: 0;
+  right: 30px;
+  transform: rotate(80deg) scale(0.3);
+  opacity: 0;
+}
+#cloud3{
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  background: url(images/smoke1.png) no-repeat;
+  bottom: 0;
+  right: 30px;
+  transform: rotate(60deg) scale(0.5);
+  opacity: 0;
+}
+#cloud4{
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  background: url(images/smoke1.png) no-repeat;
+  bottom: 0;
+  right: 30px;
+  transform: rotate(77deg) scale(0.2);
+  opacity: 0;
+}
+#cloud5{
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  background: url(images/smoke1.png) no-repeat;
+  bottom: 0px;
+  right: 30px;
+  transform: rotate(90deg) scale(0.5);
+  opacity: 0;
+}
+#cloud6{
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  background: url(images/smoke1.png) no-repeat;
+  bottom: 48px;
+  right: 30px;
+  transform: rotate(120deg) scale(0.7);
+  opacity: 0;
+}
+#cloud7{
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  background: url(images/smoke1.png) no-repeat;
+  bottom: 40px;
+  right: 30px;
+  transform: rotate(130deg) scale(0.3);
+  opacity: 0;
+}
+#cloud8{
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  background: url(images/smoke1.png) no-repeat;
+  bottom: 44px;
+  right: 30px;
+  transform: rotate(114deg) scale(0.7);
+  opacity: 0;
+}
+#cloud9{
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  background: url(images/smoke1.png) no-repeat;
+  bottom: 40px;
+  right: 30px;
+  transform: rotate(117deg) scale(0.2);
+  opacity: 0;
+}
+#cloud10{
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  background: url(images/smoke1.png) no-repeat;
+  bottom: 38px;
+  right: 30px;
+  transform: rotate(119deg) scale(0.5);
+  opacity: 0;
+}
+/* dust animation */
+.dot{
+  width:10px;
+  height:10px;
+  position:absolute;
+  background-color:#ffffff;
+  /* border-radius: 20px; */
+  z-index:2;
+}
+#dust{
+  width: 300px;
+  height: 108px;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+}
+/* _sceneTwo */
+.frameTwo{
+
+}
+.sceneTwo_Cont{
+  width: 300px;
+  height: 250px;
+  background-color: #358abe;
+  z-index: 1;
+  left: -300px;
+}
+.jersey{
+  position: absolute;
+  width: 206px;
+  height: 213px;
+  background: url(images/jersey.png) 0 0 no-repeat;
+  bottom: -97px;
+  right: 5px;
+}
+/* sceneThree */
+.sceneThree_Cont{
+  position: absolute;
+  left: -300px;
+  width: 300px;
+  height: 250px;
+  background-image: url(images/finalScene.jpg);
+  display: block;
+  bottom: 0;
+  z-index: 2;
+}
+.cta {
+  position: absolute;
+  width: 143px;
+  height: 37px;
+  background-image: url(images/cta.png);
+  bottom: 11px;
+  left: -301px;
+}
+#dustySlide{
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 4;
+}

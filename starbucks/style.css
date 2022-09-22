@@ -1,0 +1,206 @@
+/*GLOBAL*/
+html,
+body {
+  width: 300px;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+.loader-container {
+  display: table;
+  width: 298px;
+  height: 248px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.loader {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* UTILITY */
+
+.container {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.cover {
+     background-repeat: no-repeat!important;
+    background-position: 50%!important;
+    background-size: cover!important;
+
+    -webkit-background-size: cover!important;
+       -moz-background-size: cover!important;
+         -o-background-size: cover!important;
+    -webkit-background-position: 50%!important;
+       -moz-background-position: 50%!important;
+         -o-background-position: 50%!important;
+}
+
+.contain {
+     background-repeat: no-repeat!important;
+    background-size: contain!important;
+
+    -webkit-background-size: contain!important;
+       -moz-background-size: contain!important;
+         -o-background-size: contain!important;
+}
+
+/* AD STYLES */
+.banner {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#bg1 {
+     width: 300px;
+     height: 250px;
+     top: 0px;
+     left: 0px;
+     background: #193d34;
+}
+
+#text1 {
+     width: 133px;
+     height: 29px;
+     top: 12px;
+    left: 85px;
+     background: url('./images/300x250_starbucks_SFE_st1_text1.png');
+     background-repeat: no-repeat;
+}
+#text2 {
+     width: 205px;
+     height: 27px;
+     top: 161px;
+    left: 48px;
+     background: url('./images/300x250_starbucks_SFE_st1_text2.png');
+     background-repeat: no-repeat;
+}
+
+.star {
+     background: url('./images/star.svg');
+     background-repeat: no-repeat;
+}
+
+#star1{
+top: 122px;
+left: 80px;
+width: 30px;
+height: 30px;
+}
+#star2{
+     left: 79px;
+    top: 70px;
+         width: 16px;
+         height: 16px;
+         transform: rotate(20deg);
+}
+#star3{
+     transform: rotate(30deg);
+         left: 112px;
+         top: 145px;
+    width: 15px;
+    height: 15px;
+}
+#star4{
+     left: 24px;
+    top: 87px;
+    width: 12px;
+    height: 12px;
+}
+#star5{
+     left: 44px;
+    top: 124px;
+    width: 9px;
+    height: 9px;
+    transform: rotate(-20deg);
+}
+#star6{
+     left: 109px;
+    top: 72px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(-4deg);
+}
+#star7{
+     transform: rotate(-24deg);
+    left: 68px;
+    top: 124px;
+         width: 20px;
+         height: 20px;
+}
+
+#cell1 {
+     width: 60px;
+     height: 92px;
+     top: 62px;
+    left: 94px;
+     background: url('./images/phone.svg');
+     background-repeat: no-repeat;
+}
+
+#coffeeCup {
+     width: 30px;
+         height: 46px;
+         top: 102px;
+         left: 4px;
+         background: url(./images/coffeeCup.svg);
+         background-repeat: no-repeat;
+         transform: rotate(4deg);
+}
+#cupShadow {
+     width: 34px;
+     height: 21px;
+     top: 141px;
+    left: 0px;
+     background: url('./images/cupShadow.svg');
+     background-repeat: no-repeat;
+         transform: rotate(5deg);
+}
+#cell2 {
+     width: 31px;
+    height: 45px;
+    transform: rotate(77deg);
+    left: 87px;
+    top: 121px;
+    background: url(./images/phone2.svg);
+    background-repeat: no-repeat;
+}
+
+#bill {
+     width: 26px;
+    height: 50px;
+    transform: rotate(53deg);
+    left: 59px;
+    top: 80px;
+    background: url(./images/dollarBill.svg);
+    background-repeat: no-repeat;
+}
+
+#cta{
+     width: 131px;
+     height: 44px;
+     top: 195px;
+    left: 93px;
+     background: url('./images/300x250_starbucks_SFE_st1_cta.png');
+     background-repeat: no-repeat;
+     cursor:pointer;
+}
+
+#screen {
+     width: 210px;
+    height: 161px;
+    top: -20px;
+    left: 98px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transform: rotate(-5deg);
+}
